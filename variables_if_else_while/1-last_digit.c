@@ -4,9 +4,10 @@
 
 int main(void)
 {
+	int n;
 	srand(time(0));
-	int n = rand() - RAND_MAX / 2;
-	int last_digit = abs(n % 10);
+	n = rand() - RAND_MAX / 2;
+	last_digit = abs(n % 10);
 
 	printf("Last digit of %d is %d", n, last_digit);
 	if (last_digit > 5)
