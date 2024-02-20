@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "2-main.c"
 
 int main(void)
 {
