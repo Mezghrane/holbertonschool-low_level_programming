@@ -5,16 +5,19 @@
  * _islower - print the alphabet in lowercase
  *
  * description
- * all letters should be printed in lowercase 
+ * all letters should be printed in lowercase
  *
  * Return: Always 0.
  */
 
-int _islower(int c) 
+int _islower(int c)
+
+	if (c >= 'a' && c <= 'z')
 {
-    if(c >= 'a' && c <= 'z') {
-        return 1;
-    } else {
-        return 0;
-    }
+		return (1);
 }
+else
+{
+	return (0);
+}
+
