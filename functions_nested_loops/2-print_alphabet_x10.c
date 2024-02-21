@@ -4,7 +4,7 @@
 /**
  * print_alphabet_x10 - print 10 times the alphabet in lowercas
  *
- * description 
+ * description
  * each line containing the entire alphabet in lower from a to z
  *
  * Return: Always 0.
