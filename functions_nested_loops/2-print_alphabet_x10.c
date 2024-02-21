@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code.
+ * print_alphabet_x10 - print 10 times the alphabet in lowercas
+ *
+ * description 
+ * each line containing the entire alphabet in lower from a to z
  *
  * Return: Always 0.
  */
