@@ -2,12 +2,13 @@
 #include "main.h"
 
 /**
- * _islower - print the alphabet in lowercase
+ * _islower - checks for lowercase character
+ * @c: the character to check
  *
- * description
- * all letters should be printed in lowercase
+ * Description: This function takes an ASCII value as input and checks
+ * if it corresponds to a lowercase character in the alphabet.
  *
- * Return: Always 0.
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 
 int _islower(int c)
