@@ -1,37 +1,37 @@
 #include <stdio.h>
 #include "main.h"
-
-/**
- * @file 9-times_table.c
- * @brief imprimer la table de multiplication de 9
- */
-
 #include <unistd.h>
 
 /**
- * @brief Fonction pour imprimer un seul caractère sur la sortie standard.
- * @param c Le caractère à imprimer.
+ * @brief Writes a single character to the standard output.
+ * @param c The character to write.
  */
-void _putchar(char c)
+
+int _putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-/**
- * @brief Fonction pour imprimer un nombre entier.
- * @param n Le nombre à imprimer.
- */
 void print_number(int n)
+
+	/**
+	 * @brief Prints an integer to the standard output.
+	 * @param n The number to print.
+	 */
+
 {
 	if (n >= 10)
+	{
 		print_number(n / 10);
+	}
 	_putchar((n % 10) + '0');
 }
 
 /**
- * @brief Fonction principale du programme.
- * @return 0 si le programme s'exécute avec succès.
+ * @brief Main function where the program starts its execution.
+ * @return 0 if the program executes successfully.
  */
+
 int main(void)
 {
 	int i;
@@ -47,3 +47,4 @@ int main(void)
 	}
 	return (0);
 }
+
