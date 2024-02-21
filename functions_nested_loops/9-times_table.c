@@ -3,8 +3,9 @@
 #include <unistd.h>
 
 /**
- * @brief Writes a single character to the standard output.
+ * Writes a single character to the standard output.
  * @param c The character to write.
+ * @return 1 on success, -1 on error.
  */
 
 int _putchar(char c)
@@ -15,7 +16,7 @@ int _putchar(char c)
 void print_number(int n)
 
 	/**
-	 * @brief Prints an integer to the standard output.
+	 * Prints an integer to the standard output.
 	 * @param n The number to print.
 	 */
 
@@ -28,7 +29,7 @@ void print_number(int n)
 }
 
 /**
- * @brief Main function where the program starts its execution.
+ * Main function where the program starts its execution.
  * @return 0 if the program executes successfully.
  */
 
