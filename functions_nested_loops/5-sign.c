@@ -10,8 +10,11 @@
  */
 
 /**
- * print_sign - prints the sign of a number
+ * print_sign - checks the sign of a number and prints it
  * @n: the number to check
+ *
+ * This function checks if the input number `n` is positive, zero, or negative.
+ * It prints the corresponding sign and returns the corresponding value.
  *
  * Return: 1 and prints '+' if n is greater than zero
  *         0 and prints '0' if n is zero
