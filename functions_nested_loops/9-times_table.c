@@ -20,21 +20,26 @@ void times_table(void)
 				_putchar(product / 10 + '0');
 				_putchar(product % 10 + '0');
 
-				if (product == 0)
-				{
-					_putchar(product + '0');
-				}
 
-			} else
+			}
+
+			else
+
 			{
 				_putchar(' ');
 				_putchar(product + '0');
 			}
-			if (j < 9)
+			if (j < 9 && j != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
+			if (j == 0)
+			{
+				_putchar(',');
+			}
+
+
 		}
 		_putchar('\n');
 	}
