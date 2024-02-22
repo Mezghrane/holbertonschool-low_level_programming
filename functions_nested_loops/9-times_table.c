@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * @i Prints a multiplication table from 0 to 9 using _putchar.
+ * times_table - Prints a multiplication table from 0 to 9
  *
- * Each product is separated by a comma and a space.
+ * Return: Nothing.
  */
 
 void times_table(void)
