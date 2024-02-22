@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * additiion - adds two integers
+ * add - Adds two integers and returns the result.
+ * @a: The first integer to add.
+ * @b: The second integer to add.
  *
- * Return: the result
+ * Return: The sum of a and b.
  */
 
 int add(int, int);
