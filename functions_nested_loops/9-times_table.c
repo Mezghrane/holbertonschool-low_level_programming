@@ -1,51 +1,38 @@
-#include <stdio.h>
 #include "main.h"
-#include <unistd.h>
-
 /**
- * Writes a single character to the standard output.
- * @param c The character to write.
- * @return 1 on success, -1 on error.
+ * @i Prints a multiplication table from 0 to 9 using _putchar.
+ *
+ * Each product is separated by a comma and a space.
  */
 
-int _putchar(char c)
+void times_table(void)
 {
-	write(1, &c, 1);
+	int i, j, product;
 }
-
-void print_number(int n)
-
-	/**
-	 * Prints an integer to the standard output.
-	 * @param n The number to print.
-	 */
-
 {
-	if (n >= 10)
+	for (i = 0; i <= 9; i++)
 	{
-		print_number(n / 10);
-	}
-	_putchar((n % 10) + '0');
-}
+		for (j = 1; j <= 9; j++)
+		{
 
-/**
- * Main function where the program starts its execution.
- * @return 0 if the program executes successfully.
- */
-
-int main(void)
-{
-	int i;
-
-	for (i = 1; i <= 10; i++)
-	{
-		print_number(9);
-		_putchar(' x ');
-		print_number(i);
-		_putchar(' = ');
-		print_number(9 * i);
+			product = i * j;
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			if (product < 10)
+			{
+				{
+					_putchar(' ');
+				}
+				_putchar(product + '0');
+			} else
+			{
+				_putchar(product / 10 + '0');
+				_putchar(product % 10 + '0');
+			}
+		}
 		_putchar('\n');
 	}
-	return (0);
 }
 
