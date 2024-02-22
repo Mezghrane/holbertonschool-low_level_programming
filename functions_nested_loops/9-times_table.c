@@ -5,7 +5,6 @@
  *
  * Each product is separated by a comma and a space.
  */
-
 void times_table(void)
 {
 	int i, j, product;
@@ -19,11 +18,8 @@ void times_table(void)
 			{
 				_putchar(product / 10 + '0');
 				_putchar(product % 10 + '0');
-
 			}
-
 			else
-
 			{
 				_putchar(' ');
 				_putchar(product + '0');
@@ -33,12 +29,8 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (i == 0)
-			{
-				_putchar(product + '0');
-			}
-
 		}
 		_putchar('\n');
 	}
 }
+
