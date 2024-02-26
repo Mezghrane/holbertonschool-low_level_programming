@@ -1,10 +1,16 @@
 #include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
  * print_numbers - imprime les chiffres de 0 a 9
  *
  */
+
+int _putchar(char c) 
+{
+    return write(1, &c, 1);
+}
 
 void print_numbers(void)
 
