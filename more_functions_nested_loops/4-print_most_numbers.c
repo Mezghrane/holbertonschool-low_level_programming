@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - imprime les chiffres de 0 a 9
- *@i: c'est la variable
+ * print_most_numbers - imprime les chiffres de 0 a 9 sauf 2 et 4
  */
 
 void print_most_numbers(void)
@@ -18,5 +17,5 @@ void print_most_numbers(void)
 			_putchar ('0' + i);
 
 	}
-	 _putchar ('\n');
+	_putchar ('\n');
 }
