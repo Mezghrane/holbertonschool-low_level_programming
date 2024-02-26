@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - imprime les chiffres de 0 a 9
- *
+ * _putchar - affiche 1 charactere a la fois 
  */
 
 void print_numbers(void)
