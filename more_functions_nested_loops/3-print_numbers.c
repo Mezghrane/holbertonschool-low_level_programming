@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 #include <unistd.h>
-#include "_putchar.c"
 
 /**
  * print_numbers - imprime les chiffres de 0 a 9
