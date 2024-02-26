@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - imprime les chiffres de 0 a 9
- * 
+ *
  */
 
 void print_numbers(void)
@@ -17,6 +17,6 @@ void print_numbers(void)
 		_putchar('0' + i);
 	}
 
-		_putchar('\n');
+	_putchar('\n');
 }
 
