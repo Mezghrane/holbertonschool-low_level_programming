@@ -1,23 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <unistd.h>
-
-/**
- * _putchar - pour imprimer un chharactere a la fois 
- * @c: character to be output
- */
-void _putchar(char c)
-{
-
-/**
- * write- c'est pour ecrire 
- *
- *
- */
-
-    write(1, &c, 1);
-}
-
+#include "_putchar.c"
 
 /**
  * print_numbers - imprime les chiffres de 0 a 9
