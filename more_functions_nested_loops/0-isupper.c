@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * _islower - checks for lowercase character
+ * _isupper - checks for uppercase character
  * @c: the character to check
  *
  * Description: This function takes an ASCII value as input and checks
  * if it corresponds to a lowercase character in the alphabet.
  *
- * Return: 1 if c is lowercase, 0 otherwise
+ * Return: 1 if c is appercase, 0 otherwise
  */
 
 int _isupper(int c)
