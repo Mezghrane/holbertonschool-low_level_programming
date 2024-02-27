@@ -4,7 +4,7 @@
 /**
  *
  *print_diagonal - imprime une ligne diagonale.
- *@i: la variable
+ *@n: la longueur de la ligne
  *
  */
 
@@ -16,11 +16,11 @@ void print_diagonal(int n)
 	for(i = 1; i < n; i++)
 	{
 		_putchar ('\\');
+		_putchar ('\n');
 
 	}
-	_putchar ('\n');
 
-	for(j = 1; j < n; i++)
+	for(j = 1; j < n; j++)
 
 
 	{ 
