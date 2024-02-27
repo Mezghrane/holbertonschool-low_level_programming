@@ -22,10 +22,3 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 }
-
-int main() 
-{
-	print_diagonal(5);
-	return 0;
-}
-
