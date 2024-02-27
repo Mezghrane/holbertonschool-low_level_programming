@@ -3,7 +3,7 @@
 
 /**
  *
- *Parcourez une liste de nombres de 1 à 100.
+ *Parcourez une liste de nombres de 1 a 100.
  * Pour chaque nombre :
  * Si le nombre est divisible par 3, imprimez "Fizz".
  * Si le nombre est divisible par 5, imprimez "Buzz".
@@ -14,22 +14,21 @@
 
 int main (void)
 {
-int i;
+	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0)
-			printf("Fizz");
+			printf("Fizz ");
 		else if (i % 5 == 0)
-			printf("Buzz");
+			printf("Buzz ");
 		else if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		else
 			printf("%d ", i);
 	}
-	printf(" ");
 	printf("\n");
 
-		return (0);
-		
+	return (0);
+
 }
