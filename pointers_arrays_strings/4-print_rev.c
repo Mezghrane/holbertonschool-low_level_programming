@@ -15,15 +15,14 @@ void print_rev(char *s)
 
         int length = 0;
     
-    while (*s != '\0') 
+    while (s[length] != '\0') 
     {
         length++;
-        s++;
     }
     
     for (i = length - 1; i >= 0; i--) 
     {
-        write(1, (s - i - 1), 1);
+        write(1, &s[i], 1);
     }
 
     write(1, "\n", 1);
