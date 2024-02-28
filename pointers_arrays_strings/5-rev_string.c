@@ -9,7 +9,7 @@
  * Return: char *n
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
         int i;
 
@@ -22,8 +22,7 @@ void rev_string(char *s)
 
         for (i = length - 1; i >= 0; i--)
         {
-                printf("%c", s[i]);
+                write(1, &s[i], 1);
         }
 
-        printf("\n");
 }
