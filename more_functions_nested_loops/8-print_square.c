@@ -2,14 +2,12 @@
 #include "main.h"
 
 /**
- * Prints a square composed of '#' characters.
+ *print_square - Prints a square composed of '#' characters.
  *
  * The size of the square is determined by the parameter 'size'.
  * If 'size' is less than or equal to 0, the function prints only a newline.
  *
- * @param size The size of the square.
- *
- * @return void
+ * @size The size of the square.
  */
 
 void print_square(int size)
