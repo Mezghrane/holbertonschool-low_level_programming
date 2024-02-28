@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
+ * main - Fizz-Buzz test
  *
- *Parcourez une liste de nombres de 1 a 100.
- * Pour chaque nombre :
- * Si le nombre est divisible par 3, imprimez "Fizz".
- * Si le nombre est divisible par 5, imprimez "Buzz".
- * Si le nombre est divisible par 3 et 5, imprimez "FizzBuzz".
- * Sinon, imprimez simplement le nombre.
+ * Description: This program prints the numbers from 1 to 100.
+ * but for multiples of three print "Fizz" instead of the number. 
+ * for the multiples of five print "Buzz". 
+ * For numbers which are multiples of both three and five print "FizzBuzz"
  *
+ * Return: 0 if successful, non-zero otherwise.
  */
 
 int main(void)
