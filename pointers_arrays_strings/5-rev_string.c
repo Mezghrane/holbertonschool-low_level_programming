@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * print_rev - prints a string, in reverse
+ * rev_string - prints a string, in reverse
  *
  * @s: Pointer to an integer
  *
  * Return: char *n
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
         int i;
 
