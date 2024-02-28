@@ -5,7 +5,7 @@
  * @file print_square.c
  * @brief Prints a square composed of '#' characters.
  *
- * The size of the square is determined by the parameter 'size'. 
+ * The size of the square is determined by the parameter 'size'.
  * If 'size' is less than or equal to 0, the function prints only a newline.
  *
  * @param size The size of the square.
