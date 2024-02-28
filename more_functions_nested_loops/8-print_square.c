@@ -4,12 +4,11 @@
 
 void print_square(int size)
 {
-	int i,j;
+	int i, j;
 
 	if (size <= 0)
 	{
 		_putchar('\n');
-		return;
 	}
 
 	for (i = 0; i < size; i++)
@@ -20,13 +19,5 @@ void print_square(int size)
 
 		_putchar('\n');
 	}
-}
 
-int main(void)
-{
-	int squareSize = 5;
-
-	print_square(squareSize);
-
-	return (0);
 }
